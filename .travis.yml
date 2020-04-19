@@ -16,8 +16,8 @@ before_install:
   after_success:
     - docker --version
 
-    jobs:
-        include:
-          - stage: "blablabla"
-            script:
-              - git clone https://github.com/frappe/frappe_docker.git
+jobs:
+    include:
+        - stage: "blablabla"
+        script:
+            - git clone https://github.com/frappe/frappe_docker.git
