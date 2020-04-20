@@ -15,4 +15,5 @@ before_install:
     - sudo mv docker-compose /usr/local/bin
 
 install:
-    - echo "okk"
+    - wget https://raw.githubusercontent.com/frappe/frappe_docker/develop/.devcontainer/docker-compose.yml
+    - docker-compose up 
