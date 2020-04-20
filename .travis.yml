@@ -6,7 +6,7 @@ services:
 dist: bionic
 
 env:
-COMPOSE_VERSION: 1.25.5
+COMPOSE_VERSION: 1.24.0
 
 before_install:
     # Docker Compose Install 
