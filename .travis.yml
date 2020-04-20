@@ -1,4 +1,4 @@
-
+language: generic
 sudo: required
 
 services:
@@ -6,7 +6,7 @@ services:
 dist: bionic
 
 env:
-COMPOSE_VERSION: 1.5.2
+COMPOSE_VERSION: 1.25.5
 
 before_install:
     # Docker Compose Install 
